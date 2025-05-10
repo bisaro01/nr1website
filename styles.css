@@ -1,5 +1,5 @@
 * {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 body {
@@ -10,34 +10,66 @@ body {
     margin-top: 0;
     padding: 0;
     margin-left: 25px;
+    margin-right: 25px;
+    text-align: center;
 }
 
-#header{
-    background-color:lightseagreen;
+#header-1 {
+    background-color: lightblue;
     width: 100%;
     padding: 50px;
+    box-sizing: border-box;
 }
 
-#header a {
-    text-decoration:none;
+#header-1 a {
+    text-decoration: none;
 }
 
 h1 {
-    text-align:left;
-    color:black;
-    font-size:xx-large;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: black;
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
 }
 
-#scarybild {
+h2 {
+    text-align: center;
+    color: black;
+}
+
+#flower {
+    rotate: 90deg;
+    filter: blur(5px);
+    width: 50%;
+
+}
+
+#flower:hover {
+    filter: blur(0px);
+}
+
+/* about me page innehåll ändringar */
+#flower-white {
     width: 100%;
 }
 
-#scary-header{
+
+#about-me-header {
     width: 100%;
     padding: 50px;
+    box-sizing: border-box;
 }
 
-#scary-header a {
-    text-decoration:none;
+#about-me-header a {
+    text-decoration: none;
+}
+
+.sub-body a {
+    color: black;
+}
+
+#dancing-patrik {
+    rotate: 70deg;
+    
 }
