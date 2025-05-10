@@ -1,15 +1,43 @@
-h1 {
-    text-align:left;
-    color:black;
-    font-size:larger
+* {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-* {
-    font-family: Arial, Helvetica, sans-serif;
+body {
+    margin: 0;
+}
+
+.sub-body {
+    margin-top: 0;
+    padding: 0;
+    margin-left: 25px;
 }
 
 #header{
-    background-color:honeydew;
-    height: 100%;
-    display: flex;
+    background-color:lightseagreen;
+    width: 100%;
+    padding: 50px;
+}
+
+#header a {
+    text-decoration:none;
+}
+
+h1 {
+    text-align:left;
+    color:black;
+    font-size:xx-large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#scarybild {
+    width: 100%;
+}
+
+#scary-header{
+    width: 100%;
+    padding: 50px;
+}
+
+#scary-header a {
+    text-decoration:none;
 }
