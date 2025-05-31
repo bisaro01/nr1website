@@ -73,3 +73,10 @@ h2 {
     rotate: 70deg;
     
 }
+
+#pink-balloon {
+    width:200px;
+    position: absolute;
+    left: 100px;
+    
+}
